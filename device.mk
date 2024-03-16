@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
 
 # HBM
 PRODUCT_PACKAGES += \
-    HBMTrigger
 
 # Init
 PRODUCT_COPY_FILES += \
@@ -73,9 +72,6 @@ PRODUCT_COPY_FILES += \
 
 # NQ Client
 PRODUCT_PACKAGES += \
-    jcos_nq_client \
-    ls_nq_client \
-    se_nq_extn_client \
     libchrome.vendor
 
 # Remove unwanted packages
