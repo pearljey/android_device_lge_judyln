@@ -74,9 +74,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libchrome.vendor
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # common judy (sdm845)
 $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
